@@ -66,6 +66,7 @@ class Migration_Install_ion_auth extends CI_Migration {
 			'username' => array(
 				'type'       => 'VARCHAR',
 				'constraint' => '100',
+				'unique'     => TRUE
 			),
 			'password' => array(
 				'type'       => 'VARCHAR',
